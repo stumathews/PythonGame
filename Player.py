@@ -12,7 +12,7 @@ class Player(pygame.sprite.Sprite):
         self.SCREEN_WIDTH = SCREEN_WIDTH
 
         # Set our image
-        self.image = pygame.image.load("Player.png")
+        self.image = pygame.image.load("assets/Player.png")
 
         # Extract a rectangle from our image ttribute
         self.rect = self.image.get_rect()

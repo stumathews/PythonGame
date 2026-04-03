@@ -13,7 +13,7 @@ class Enemy(pygame.sprite.Sprite):
         self.SCREEN_WIDTH = SCREEN_WIDTH
         
         # Setup our image and rect
-        self.image = pygame.image.load("Enemy.png")
+        self.image = pygame.image.load("assets/Enemy.png")
         self.rect = self.image.get_rect()
 
         # set the starting point of our rect, i.e, start at random x 
